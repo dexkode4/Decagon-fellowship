@@ -52,6 +52,13 @@
       outline-width: 0;
       padding: 1em 0;
       font-size: 1.6rem;
+      text-align: left;
+      @media (max-width:450px) {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: $decagon-blue;
+        text-align: left;
+     }
   
       &::after {
         content: url(../../assets/svg/ArrowDownIcon.svg);
