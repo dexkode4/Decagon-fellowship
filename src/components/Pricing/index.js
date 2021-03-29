@@ -47,8 +47,8 @@ function Pricing() {
         <h1>Choose from our Subscripton Plan</h1>
         <p>
           Choose any of our annual subscription packages; specially designed for
-          you. Your preferred subscription tier gives you exclusive access to
-          Decagon’s exceptional software engineering talent pool.{' '}
+          you.<br/> Your preferred subscription tier gives you exclusive access to
+          Decagon’s exceptional <br/> software engineering talent pool.
         </p>
 
         <div className={styles.pricingPlans}>

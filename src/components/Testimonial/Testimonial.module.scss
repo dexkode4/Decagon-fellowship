@@ -1,0 +1,78 @@
+@import '../../styles/variables';
+
+.testimonial {
+    background: $background-grey;
+    color: $decagon-blue-100;
+    padding: 6em 11em;
+
+    &_header{
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    &_bottom{
+        h1 {
+            font-size: 4rem;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        p{
+            font-size: 1.7rem;
+            line-height: 2.5rem;
+            text-align: center;
+            margin-top: 2rem;
+            font-weight: 400;
+            // padding: 0 20em;
+        }
+    }
+
+    &_companies {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 5rem;
+    }
+    &_company{
+        background: $color-white;
+        box-shadow: 0px 14px 24px -12px rgba(45, 47, 72, 0.1);
+        border-radius: 1.5rem;
+        display: grid;
+        place-content: center;
+        padding: 2.7em;
+        width: 17rem;
+    }
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 8rem;
+    &_Left{
+        overflow: hidden;
+        width: 46%;
+        img {
+            width: 100%;
+        }
+    }
+    &_Right{
+        width: 46%;
+        h1 {
+            font-size: 5rem;
+            font-weight: 400;
+            margin-bottom: 4rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 2.5rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
