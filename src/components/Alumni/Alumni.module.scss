@@ -1,0 +1,76 @@
+@import '../../styles/variables';
+
+
+.alumni {
+    background: $color-white;
+    position: relative;
+    padding: 8em 13em;
+    padding-top: 10em;
+    color: $decagon-blue-100;
+
+    &__info {
+            margin-top: 10rem;
+            text-align: center;
+            p {
+                font-size: 2.5rem;
+                font-style: italic;
+                font-weight: 300;
+                padding: 0 10em;
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+    }
+
+    &_testimonial {
+        width: 48%
+    }
+    &::after{
+        content: url(../../assets/svg/QuotesIcon.svg);
+        height: 3rem;
+        width: auto;
+        position: absolute;
+        top: 15%;
+        right: 7%;
+    }
+
+    &_header {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    &_image {
+        border-radius: 50%;
+        overflow: hidden;
+        height: 5rem;
+        width: 5rem;
+        margin-right: 1rem;
+    }
+
+    &Bio{
+        display: flex;
+        float: right;
+        align-items: center;
+    }
+
+    &_testimonialContent {
+        background: $background-grey-200;
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        padding: 2em;
+        height: 20rem;
+        text-align: center;
+        display: grid;
+        place-content: center;
+        line-height: 2.5rem;
+        margin-bottom: 3rem;
+        position: relative;
+        z-index: 100;
+    }
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+}
