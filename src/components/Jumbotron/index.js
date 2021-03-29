@@ -14,7 +14,16 @@ function Jumbotron() {
                 </p>
                 <Button background="green" link="signup" size="sm" title="Get Started"/>
             </div>
-            <div className={styles.jumbotronRight}/>
+            <div className={styles.jumbotronRight}>
+                <div className={styles.jumbotronRightMobile}>
+                <h1>
+                Hire Well Trained Software Engineers. Enjoy a 2-year Talent Commitment
+                </h1>
+                <p>
+                With a 0.5% acceptance rate, the Decagon Fellowship contracts <br/> well-trained engineers to you for 2 years after a free 2-month <br/> internship.
+                </p>
+                </div>
+            </div>
         </div>
     )
 }

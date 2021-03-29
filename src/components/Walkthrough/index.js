@@ -1,5 +1,7 @@
 import React from 'react'
 import { OneIcon, ThreeIcon, TwoIcon } from '../../assets/svg';
+import image from '../../assets/images/businessman.png';
+
 import styles from './Walkthrough.module.scss';
 
 function Walkthrough() {
@@ -32,7 +34,9 @@ function Walkthrough() {
                     </div>
                 </div>
             </div>
-            <div className={styles.walkthroughRight}/>
+            <div className={styles.walkthroughRight}>
+                {/* <img src={image} alt="businessman" /> */}
+            </div>
             
         </div>
     )

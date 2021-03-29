@@ -6,6 +6,10 @@
     display: flex;
     padding: 4em 11em;
 
+    @media (max-width: 702px) {
+        padding:4em 5em;
+   }
+
     &Box {
         display: flex;
         align-items: flex-start;
@@ -36,14 +40,35 @@
             font-size: 4.5rem;
             line-height: 6rem;
             margin-bottom: 4rem;
+
+            @media (max-width: 702px) {
+                font-size: 3rem;
+                text-align: center;
+           }
           
         }
+        @media (max-width: 986px) {
+            width: 100%;
+       }
+        @media (max-width: 702px) {
+            padding:0;
+       }
     }
 
     &Right{
         background-image: url(../../assets/images/businessman.png);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
         width: 50%;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 986px) {
+             display: none;
+        }
     }
 }

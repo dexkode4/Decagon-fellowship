@@ -4,6 +4,11 @@
     background: $background-grey;
     padding: 5em 11rem ;
     position: relative;
+
+    @media (max-width: 750px){
+        padding: 5em 2rem; 
+    }
+
     &Main {
         background: $decagon-blue;
         border-radius: .5rem;
@@ -11,7 +16,6 @@
         text-align: center;
         padding: 5em;
         padding-bottom: 20rem;
-
         position: relative;
         h3{
             font-size: 2rem;
@@ -39,6 +43,16 @@
                 padding: 0 10em;
                 text-align: center;
                 margin-bottom: 3rem;
+
+                @media (max-width: 1080px){
+                    padding: 0 2em;
+                text-align: center;
+                margin-bottom: 3rem;
+                }
+            }
+
+            @media (max-width: 1080px){
+                margin-top: 10rem;
             }
         }
     }
@@ -52,8 +66,24 @@
         width: 40rem;
         margin-right: 3rem;
 
+        @media (max-width: 1080px){
+            margin-right: 0;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+        @media (max-width: 530px){
+            width: 95%;
+        }
+    
+
         &:last-child{
             margin-right: 0;
+
+            @media (max-width: 1080px){
+                margin-right: 0;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+            }
         }
         &__description {
             display: flex;
@@ -98,5 +128,11 @@
         top: 70%;
         left: 50%;
         transform: translateX(-50%);
+
+        @media (max-width: 1080px){
+            position: relative;
+            flex-direction: column;
+        }
+    
     }
 }

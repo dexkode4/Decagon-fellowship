@@ -7,11 +7,20 @@
     padding: 8em 13em;
     padding-top: 10em;
     color: $decagon-blue-100;
-
+    @media (max-width:916px) {
+        padding: 8em 3em;
+     }
   
 
     &_testimonial {
-        width: 48%
+        width: 48%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media (max-width:916px) {
+           margin-bottom: 3rem;
+           width: 100%;
+        }
     }
     &::after{
         content: url(../../assets/svg/QuotesIcon.svg);
@@ -20,6 +29,11 @@
         position: absolute;
         top: 15%;
         right: 7%;
+
+        @media (max-width:916px) {
+           display: none;
+         }
+        
     }
 
     &_header {
@@ -37,9 +51,13 @@
     }
 
     &Bio{
+        align-self: flex-end;
         display: flex;
         float: right;
         align-items: center;
+        @media (max-width:916px) {
+            align-self: center;
+        }
     }
 
     &_testimonialContent {
@@ -47,7 +65,7 @@
         border-radius: 1rem;
         font-size: 1.2rem;
         padding: 2em;
-        height: 20rem;
+        // height: 20rem;
         text-align: center;
         display: grid;
         place-content: center;
@@ -62,4 +80,9 @@
 .carousel {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width:916px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }

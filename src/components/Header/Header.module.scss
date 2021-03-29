@@ -13,4 +13,9 @@
     &_homeBtn{
         cursor: pointer;
     }
+
+    @media (max-width:844px) {
+        padding: 4em 5em;
+
+    }
 }

@@ -3,6 +3,10 @@
 .decagon {
     background: $color-white;
     padding: 6em 11em;
+
+    @media (max-width:800px){
+        padding: 6em 2em;
+    }
 }
 
 .container {
@@ -10,19 +14,34 @@
     justify-content: space-between;
     align-items: center;
     color: $decagon-blue-100;
+
+    @media (max-width:800px){
+        flex-direction: column;
+    }
     &_Left{
         overflow: hidden;
         width: 46%;
         img {
             width: 100%;
         }
+
+        @media (max-width:800px){
+            width: 95%;
+            margin-bottom: 4rem;
+        }
     }
     &_Right{
         width: 46%;
+        @media (max-width:800px){
+            width: 95%;
+            text-align: center;
+        }
         h1 {
             font-size: 5rem;
             font-weight: 400;
             margin-bottom: 4rem;
+
+           
         }
 
         p {
