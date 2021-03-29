@@ -40,7 +40,9 @@
             font-size: 5rem;
             font-weight: 400;
             margin-bottom: 4rem;
-
+            @media (max-width:800px){
+                font-size: 4rem;
+            }
            
         }
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import { OneIcon, ThreeIcon, TwoIcon } from '../../assets/svg';
-import image from '../../assets/images/businessman.png';
 
 import styles from './Walkthrough.module.scss';
 

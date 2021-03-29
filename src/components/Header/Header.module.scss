@@ -12,6 +12,9 @@
     padding: 4em 11em;
     &_homeBtn{
         cursor: pointer;
+        @media (max-width:400px) {
+            width: 40%;
+        }
     }
 
     @media (max-width:844px) {

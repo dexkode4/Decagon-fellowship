@@ -11,6 +11,13 @@ html {
    font-size: 62.5%;
    font-family: 'Mulish', sans-serif;
    background: $background-grey;
+
+   @media (max-width:480px) {
+      font-size: 55%;
+   }
+   @media (max-width:330px) {
+      font-size: 50%;
+   }
  
 }
 

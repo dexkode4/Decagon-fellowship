@@ -11,6 +11,10 @@
     svg {
         margin-bottom: 3rem;
     }
+
+    @media (max-width:400px) {
+       padding: 2em;
+    }
 }
 
 .socials {

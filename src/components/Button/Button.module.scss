@@ -9,6 +9,10 @@
     font-weight: 500;
     outline-width: 0;
     transition: all .3s ease-in;
+
+    @media (max-width:400px) {
+        padding: .4em 1em;
+    }
     &Small{
         width: max-content;
     }
