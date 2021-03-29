@@ -58,14 +58,6 @@ function Alumni() {
           </div>
         </div>
       </div>
-      <div className={styles.alumni__info}>
-          <p>
-            Need some help with choosing the best tier for your team? Request a
-            call and we’ll help you find your fit.
-          </p>
-
-          <Button title="Request a Call" background="green"  size="sm" link="call"/>
-        </div>
     </div>
   )
 }

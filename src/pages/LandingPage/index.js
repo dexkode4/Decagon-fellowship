@@ -3,6 +3,7 @@ import About from '../../components/About'
 import AboutDecagon from '../../components/AboutDecagon'
 import Accordion from '../../components/Accordion'
 import Alumni from '../../components/Alumni'
+import Footer from '../../components/Footer'
 import Jumbotron from '../../components/Jumbotron'
 import Pricing from '../../components/Pricing'
 import Testimonial from '../../components/Testimonial'
@@ -19,6 +20,7 @@ function LandingPage() {
        <Testimonial/>
        <Alumni/>
        <Accordion/>
+       <Footer/>
     </div>
   )
 }

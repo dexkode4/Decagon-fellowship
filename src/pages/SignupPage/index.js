@@ -1,11 +1,9 @@
 import React from 'react'
-import PageLayout from '../../components/PageLayout'
+import styles from './Signup.module.scss';
+
 function SignUpPage() {
     return (
-        <div>
-            <PageLayout>
-                Sign up page
-            </PageLayout>
+        <div className={styles.signup}>
            
         </div>
     )
