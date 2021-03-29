@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './Alumni.module.scss'
 import photo1 from '../../assets/images/tega.png'
 import photo2 from '../../assets/images/grace.png'
-import Button from '../Button'
 
 function Alumni() {
   return (
