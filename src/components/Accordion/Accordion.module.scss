@@ -1,0 +1,67 @@
+@import '../../styles/variables';
+
+.faq {
+    color: $decagon-blue-100;
+    width: 100%;
+    padding-top: 65px;
+    padding: 4em 11em;
+  
+    &__title {
+      font-size: 4rem;
+      font-weight: 600;
+      margin: 0;
+      padding-bottom: 25px;
+      text-align: center;
+
+    }
+  
+    &__question {
+      width: 100%;
+      border-bottom: 1px solid $light-grayish-blue;
+    }
+  
+    &__question_button {
+      color: $decagon-blue-100;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      outline-width: 0;
+      padding: 1em 0;
+      font-size: 1.6rem;
+  
+      &::after {
+        content: url(../../assets/svg/ArrowDownIcon.svg);
+        margin-right: 17px;
+        transform: rotate(-90deg);
+        transition: transform 0.1s ease-out;
+      }
+  
+      &:hover {
+        color: $decagon-green-200;
+
+      }
+    }
+  
+    &__desc {
+      color: $decagon-blue-100;
+      padding-right: 17px;
+      margin-top: 0;
+      margin-bottom: 0;
+      height: 0;
+      overflow: hidden;
+      transition: all 200ms ease-out;
+      font-size: 1.25rem;
+    }
+  }
+
+  .show-description {
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .font-weight-bold::after {
+    transform: rotate(0deg);
+  }

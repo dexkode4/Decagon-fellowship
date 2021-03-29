@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.walkthrough {
+    color: $decagon-blue-100;
+    background: $background-grey;
+    display: flex;
+    padding: 4em 11em;
+
+    &Box {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5rem;
+
+        svg {
+            margin-right: 3rem;
+            align-self: flex-start;
+            width: 10rem;
+        }
+
+        h4 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: 1.6rem;
+            font-weight: 200;
+            line-height: 3rem;
+        }
+    }
+
+    &Left{
+        padding-right: 8rem;
+        width: 50%;
+        &_header{
+            font-size: 4.5rem;
+            line-height: 6rem;
+            margin-bottom: 4rem;
+          
+        }
+    }
+
+    &Right{
+        background-image: url(../../assets/images/businessman.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50%;
+    }
+}

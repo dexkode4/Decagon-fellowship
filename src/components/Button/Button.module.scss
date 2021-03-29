@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.button {
+    border: none;
+    cursor: pointer;
+    padding: .7em 2em;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 500;
+    outline-width: 0;
+    transition: all .3s ease-in;
+    &Small{
+        width: max-content;
+    }
+
+    &Full {
+        width: 100%;
+    }
+
+    &Green {
+        background: linear-gradient(96.67deg, $decagon-green-200 0%, $decagon-green-100 100%);
+        color: $color-white;
+       
+        &:hover{
+            background: $color-white;
+            color: $decagon-green-200;
+        }
+    }
+
+    &White {
+        background: $color-white;
+        color: $decagon-green-200;
+        &:hover{
+            background: linear-gradient(96.67deg, $decagon-green-200 0%, $decagon-green-100 100%);
+            color: $color-white;
+        }
+    }
+    
+}
