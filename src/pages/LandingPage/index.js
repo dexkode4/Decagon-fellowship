@@ -20,7 +20,7 @@ function LandingPage() {
        <Testimonial/>
        <Alumni/>
        <Accordion/>
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   )
 }
